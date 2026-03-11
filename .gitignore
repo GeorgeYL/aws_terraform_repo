@@ -1,0 +1,26 @@
+# Terraform local data
+**/.terraform/*
+**/.terraform.tfstate.lock.info
+
+# Terraform state and plans
+*.tfstate
+*.tfstate.*
+*.tfplan
+plan*.tfplan
+
+# Variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local artifacts
+$null
